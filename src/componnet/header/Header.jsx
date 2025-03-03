@@ -8,19 +8,22 @@ const Header = () => {
           {/* بخش بالا برای سایز PC */}
           <header className="bg-white border border-red-900 h-20 p-4 flex justify-between items-center">
             <div className='w-40 max-md:hidden'>
-              <img src="./img/HAJIJA.png" alt="" />
+              <img src="./img/HAJIJA.png" alt=""  className="px-3"/>
             </div>
-            <div className='bg-gray-400 rounded-2xl p-2 flex  items-center justify-between max-md:hidden'>
-              <div className='flex items-center justify-between p-4'>
-                <div>صفحه ی اصلی</div>
-                <div>اقامتگاه</div>
-                <div>مقالات</div>
-                <div>راه های ارتباطی </div>
-              </div>
-              <div className='w-10'><img src="./img/Group 1895.png" alt="" /></div>
+            <div className='bg-gray-200 rounded-lg px-1 w-5/12 flex p-1 items-center max-md:hidden'>
+            <ul className="flex items-center justify-evenly w-full font-bold mx-2">
+  <li>صفحه اصلی</li>
+  <div className="border-l border-gray-500 h-5 mx-2"></div>
+  <li>اقامتگاه</li>
+  <div className="border-l border-gray-500 h-5 mx-2"></div>
+  <li>مقالات</li>
+  <div className="border-l border-gray-500 h-5 mx-2"></div>
+  <li>راه های ارتباطی</li>
+</ul>
+              <div className='w-12'><img src="./img/Group 1895.png" alt="" /></div>
             </div>
-              <div className='w-4/12 border border-red-900 bg-blue-400 flex items-center justify-center max-md:hidden '>
-                <p>ساشا آذرخش آلوچه</p>
+              <div className='w-[180px] border border-blue-900 bg-[#007AFF] flex items-center justify-evenly max-md:hidden rounded-lg m-4 py-3 '>
+                <p className="text-white">ساشا آذرخش آلوچه</p>
                 <img src="./img/icon/arrow-left.svg" alt="" className='w-4'/>
               </div>
               <div className='md:hidden w-full flex justify-center items-center'>
